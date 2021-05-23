@@ -21,8 +21,8 @@
 <p align="center">
     <img src = "https://github.com/tamirysnogueira/Horizon/blob/master/gif/Gif_Desktop.gif" width="1000px">
     <br>
-    <img src = "gif/Gif_Ipad.gif" width="500px">
-    <img src="gif/Gif_iphoneX.gif" width="500px">
+    <img src = "gif/Gif_Ipad.gif" width="300px">
+    <img src="gif/Gif_iphoneX.gif" width="300px">
 
 </p>
 
