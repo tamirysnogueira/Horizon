@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 25% auto;
+    height: 100%;
+    width: 100%;
+}
+
+#about_thunderjawn {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#atributes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 3px; 
+}
+
+#atributes h1 {
+    background: -webkit-linear-gradient(top, rgba(48, 47, 46, 0.77),rgba(255, 207, 38, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-top: 119px;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+
+#atributes p {
+    color: #c7a11b;
+    font-size: 26px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#atributes img {
+    width: 30px;
+}
+
+#atributes .circle {
+    width: 93px;
+    height: 93px;
+    border-radius: 100%;
+    background-color: gray;
+    margin-bottom: 60px;
+    transition: 0.4s ease-in-out;
+}
+
+#atributes #flame {
+    margin-top: 70px;
+    background-color: #f8d3b1;
+}
+
+#atributes #freezing {
+    background-color: #d9edff;
+}
+
+#atributes #shield {
+    background-color: #f1ddab;
+}
+
+#atributes #lightning {
+    background-color: #abcff1;
+}
+
+#atributes .circle:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 20px rgba(0,0 ,0 , 0.2);
+}
+
+#thunderjawn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thunderjawn img {
+    width: 720px;
+    height: 811px;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#information #logo img  {
+    width: 216px;
+    height: 90px;   
+}
+
+#description {
+    margin-top: 297px;
+}
+
+#description p {
+    color: #fff;
+    line-height: 1.7rem;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#purchase {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size {
+    font-size: 20px;
+    padding: 11px 21px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+#purchase #buy {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+#purchase #buy:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#purchase #more {
+    color: white;
+    border: 2px solid #fff;
+    margin-left: 32px;
+}
+
+#purchase #more:hover{
+    border-color: #000;
+    transform: scale(1.1);
+}
+
+#brand {
+    margin-top: 162px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#description #brand #guerrilha {
+    width: 25px;
+}
+
+#description #brand #sony {
+    margin-right: 36px;
+    width: 34px;
+}
+
+@media screen and (max-width: 1600px) {
+    #atributes h1 {
+        font-size: 39px;
+    }
+
+    #atributes p {
+        font-size: 22px;
+    }
+
+    #atributes .circle {
+        width: 83px;
+        height: 83px;
+    }
+
+    #thunderjawn img {
+        width: 650px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    #atributes h1 {
+        font-size: 33px;
+    }
+
+    #atributes .circle {
+        width: 73px;
+        height: 73px;
+        margin-bottom: 85px;
+    }
+
+    #thunderjawn img {
+        width: 500px;
+        height: 640px;
+    }
+
+    #description p {
+        font-size: 14px;
+    }
+
+    #information #logo img  {
+        width: 190px;
+        height: 74px;   
+    }
+
+    .size {
+        font-size: 20px;
+        padding: 9px 19px;
+        border-radius: 20px;
+    } 
+
+    #description #brand #guerrilha {
+        width: 20px;
+    }
+    
+    #description #brand #sony {
+        width: 29px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about_thunderjawn {
+        width: 100%;
+        height: 100%;
+        padding-top: 3rem;
+    }
+
+    #atributes {
+        width: 100vw;
+    }
+
+    #name {
+        margin-top: 0.5rem;
+    }
+
+    #atributes h1 {
+        font-size: 28px;
+        padding: 10px;
+        margin-top: auto;
+    }
+
+    #atributes p {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    #weaknesses {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #weaknesses #flame {
+        margin-top: 0;
+    }
+
+    #atributes .circle {
+        width: 63px;
+        height: 63px;
+        margin: 0 2rem;
+    }
+
+    #atributes .circle img {
+        width: 24px;
+    }
+
+    #thunderjawn img {
+        width: 90%;
+        height: 90%;
+    }
+
+    #information #logo img  {
+        width: 140px;
+        height: 60px; 
+    }
+
+    #description {
+        margin-top: 50%;
+    }
+
+    #description p {
+        font-size: 14px;
+    }
+
+    #brand {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #container {
+        overflow-x: hidden;
+    }
+
+    #about_thunderjawn {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0.6rem;
+        
+    }
+
+    #atributes {
+        padding-bottom: 1.6rem;
+    }
+
+    #weaknesses {
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #atributes .circle {
+        width: 43px;
+        height: 43px;
+        margin: 0 0.8rem;
+    }
+
+    #thunderjawn img {
+        width: 82%;
+        height: 82%;
+    }
+
+    #information {
+        width: 250px;
+    }
+
+    #information #logo img {
+        display: none;
+    }
+
+    #description {
+        margin: 0;
+    }
+
+    #description p {
+        font-size: 12px;
+    }
+
+    #purchase {
+        margin-top: 15px;
+    }
+
+    .size {
+        font-size: 16px;
+        padding: 9px 17px;
+        border-radius: 20px;
+    } 
+
+    #brand{
+        margin-bottom: 0.3rem;
+        margin-top: 0.8rem;
+    }
+
+    #description #brand #guerrilha {
+        width: 13px;
+    }
+    
+    #description #brand #sony {
+        width: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
