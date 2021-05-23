@@ -34,7 +34,7 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### 📝 Licença
-O projeto contém a licença MIT. Para mais informações acesse [LICENSE](https://github.com/tamirysnogueira/Deezer/blob/master/LICENSE).
+O projeto contém a licença MIT. Para mais informações acesse [LICENSE](https://github.com/tamirysnogueira/Horizon/blob/master/LICENSE).
 
 <br>
 
